@@ -1,0 +1,189 @@
+<div className='store-container'>
+      {productsData.map((product)=>(
+        <div className="product" key={product.id}>
+          <img src={product.image} alt="" className="product_img" />
+          <span className="product_title">{product.title}</span>
+          <div onClick={()=>onAddToCart(product)} className="cart_button">
+            <span>{product.price}</span>
+            <span >Add to Cart</span>
+          </div>
+        </div>
+      ))}
+    </div>
+
+
+
+
+moviesData.map((movie)=>){
+    const movieDiv = document.createElement("div");
+    movieDiv.setAttribute("class", "movie");
+    document.getElementById("movies-container").appendChild(movieDiv);
+    const movieImg = document.createElement("img");
+    movieImg.src = 
+    
+}
+
+
+    const activeSlide = document.querySelector('.swiper-slide-active img');
+    const heroBackground = document.getElementById("#hero-background");
+
+
+
+
+
+
+
+
+
+const moviesData = [
+    {
+        id: 1,
+        image:  GOT-movie.jpg,
+        title: "Game Of Thrones",
+        date: "20 April",
+        avgAge: "18+",
+        Languages: ["Ru", "En"]
+    },
+    {
+        id: 2,
+        image:  Bliss-movie.webp,
+        title: "Bliss",
+        date: "20 April",
+        avgAge: "18+",
+        Languages: ["Ru", "En"]
+    },
+    {
+        id: 3,
+        image:  up-from-slavery.jpeg,
+        title: "Up From Slavery",
+        date: "20 April",
+        avgAge: "18+",
+        Languages: ["Ru", "En"]
+    },
+    {
+        id: 4,
+        image:  the-walking-dead.jpg,
+        title: "The Walking Dead",
+        date: "20 April",
+        avgAge: "18+",
+        Languages: ["Ru", "En"]
+    },
+    {
+        id: 5,
+        image:  fast-x.jpg,
+        title: "Game Of Thrones",
+        date: "20 April",
+        avgAge: "18+",
+        Languages: ["Ru", "En"]
+    },
+    {
+        id: 6,
+        image:  bad-boys_.jpg,
+        title: "Game Of Thrones",
+        date: "20 April",
+        avgAge: "18+",
+        Languages: ["Ru", "En"]
+    },
+    {
+        id: 7,
+        image:  godzilla-vs-kong.jpg,
+        title: "Game Of Thrones",
+        date: "20 April",
+        avgAge: "18+",
+        Languages: ["Ru", "En"]
+    },
+    {
+        id: 8,
+        image:  bad-boys_.jpg,
+        title: "Game Of Thrones",
+        date: "20 April",
+        avgAge: "18+",
+        Languages: ["Ru", "En"]
+    },
+    {
+        id: 9,
+        image:  mortal-kombat.jpg,
+        title: "Game Of Thrones",
+        date: "20 April",
+        avgAge: "18+",
+        Languages: ["Ru", "En"]
+    },
+    {
+        id: 10,
+        image:  GOT-movie.jpg,
+        title: "Game Of Thrones",
+        date: "20 April",
+        avgAge: "18+",
+        Languages: ["Ru", "En"]
+    },
+    {
+        id: 11,
+        image:  Bliss-movie.webp,
+        title: "Game Of Thrones",
+        date: "20 April",
+        avgAge: "18+",
+        Languages: ["Ru", "En"]
+    },
+    {
+        id: 12,
+        image:  GOT-movie.jpg,
+        title: "Game Of Thrones",
+        date: "20 April",
+        avgAge: "18+",
+        Languages: ["Ru", "En"]
+    },
+    {
+        id: 13,
+        image:  GOT-movie.jpg,
+        title: "Game Of Thrones",
+        date: "20 April",
+        avgAge: "18+",
+        Languages: ["Ru", "En"]
+    },
+    {
+        id: 14,
+        image:  GOT-movie.jpg,
+        title: "Game Of Thrones",
+        date: "20 April",
+        avgAge: "18+",
+        Languages: ["Ru", "En"]
+    },
+    {
+        id: 15,
+        image:  GOT-movie.jpg,
+        title: "Game Of Thrones",
+        date: "20 April",
+        avgAge: "18+",
+        Languages: ["Ru", "En"]
+    },
+    {
+        id: 16,
+        image:  GOT-movie.jpg,
+        title: "Game Of Thrones",
+        date: "20 April",
+        avgAge: "18+",
+        Languages: ["Ru", "En"]
+    },
+    {
+        id: 17,
+        image:  GOT-movie.jpg,
+        title: "Game Of Thrones",
+        date: "20 April",
+        avgAge: "18+",
+        Languages: ["Ru", "En"]
+    },
+    {
+        id: 18,
+        image:  GOT-movie.jpg,
+        title: "Game Of Thrones",
+        date: "20 April",
+        avgAge: "18+",
+        Languages: ["Ru", "En"]
+    }
+
+];
+
+            <h3>${movie.title}</h3>
+            <span>${movie.date}</span>
+            <span>Age Rating: ${movie.avgAge}</p>
+            <p>Languages: ${movie.languages}</p> 
